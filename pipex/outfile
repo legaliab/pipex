@@ -1,0 +1,19 @@
+total 904$
+drwxrwxrwx+ 3 codespace root        4096 Dec 10 14:42 .$
+drwxrwxrwx+ 4 codespace root        4096 Dec  3 13:00 ..$
+drwxrwxrwx+ 4 codespace root        4096 Dec 10 14:42 Libft$
+-rw-rw-rw-  1 codespace root        1307 Dec  3 13:00 Makefile$
+-rw-rw-rw-  1 codespace root        1306 Dec  3 13:00 error.c$
+-rw-rw-rw-  1 codespace codespace 151344 Dec 10 14:42 error.o$
+-rw-rw-rw-  1 codespace root        1654 Dec  3 13:00 execution.c$
+-rw-rw-rw-  1 codespace codespace 150824 Dec 10 14:42 execution.o$
+-rw-rw-rw-  1 codespace root        1095 Dec  3 13:00 free.c$
+-rw-rw-rw-  1 codespace codespace 148976 Dec 10 14:42 free.o$
+-rw-rw-rw-  1 codespace codespace      0 Dec 10 14:42 infile$
+-rw-rw-rw-  1 codespace codespace      0 Dec 10 14:43 outfile$
+-rwxrwxrwx  1 codespace codespace 120504 Dec 10 14:42 pipex$
+-rw-rw-rw-  1 codespace root        1410 Dec 10 14:42 pipex.c$
+-rw-rw-rw-  1 codespace root        1381 Dec  3 13:00 pipex.h$
+-rw-rw-rw-  1 codespace codespace 150472 Dec 10 14:42 pipex.o$
+-rw-rw-rw-  1 codespace root        1698 Dec  3 13:00 utils.c$
+-rw-rw-rw-  1 codespace codespace 151944 Dec 10 14:42 utils.o$

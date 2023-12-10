@@ -15,21 +15,29 @@
 void	pipex(char **av, char **env)
 {
 	int		end[2];
-	pid_t	pid;
+	pid_t	pid_in;
+	pid_t	pid_out;
+	int		status;
 
 	if (pipe(end) == -1)
 		exit(EOF);
-	pid = fork();
-	if (pid == -1)
+	pid_in = fork();
+	if (pid_in == -1)
 		exit(EOF);
-	if (pid == 0)
+	if (pid_in == 0)
 		child_process(end, av, env);
-	wait(NULL);
-	parent_process(end, av, env);
+	pid_out = fork();
+	if (pid_out == -1)
+		exit(EOF);
+	if (pid_out == 0)
+		parent_process(end, av, env);
+	waitpid(pid_in, &status, 0);
+	waitpid(pid_in, &status, 0);
 }
 
 int	main(int ac, char **av, char **env)
 {
+	int i = 0;
 	if (ac != 5)
 		arg_error(EXIT_FAILURE);
 	pipex(av, env);
