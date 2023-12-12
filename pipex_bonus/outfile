@@ -1,0 +1,10 @@
+Libft
+Makefile
+error.c
+execution.c
+free.c
+infile
+outfile
+pipex.c
+pipex.h
+utils.c
